@@ -1,0 +1,59 @@
+page{
+    background-color: #f5f5f5;
+}
+.top{
+    height: 380rpx;
+    width: 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.top .left{
+  
+    height: 100%;
+    width: 260rpx;
+
+}
+.top .left .userinfo {
+    padding-top: 50rpx;
+    padding-left: 50rpx;
+  }
+  
+.top .left .userinfo .touxiang {
+    height: 150rpx;
+    width: 150rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 16rpx;
+  }
+.top .left .userinfo .username{
+    margin-top: 10rpx;
+    margin-left: 40rpx;
+    color: #333;
+}
+.top .right{
+    position: absolute;
+    top:60px;
+    right: 0px;
+    height: 100%;
+    width: 300rpx;
+    font-size: 50rpx;
+    color: #333;
+}
+.top .right .number{
+    color: red;
+    font-size:larger;
+}
+.body .body_nav{
+    height: 100rpx;
+    background-color: #FCF2DC;
+    padding-top: 50rpx;
+    padding-left: 50rpx;
+    border-top-style:none;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 1rpx;
+}
+.body .body_nav .body_nav_text{
+    color: #333;
+}

@@ -1,0 +1,28 @@
+<view class="top" style="background-image: url(/images/background.jpeg);">
+    <view class="left">
+        <view class="userinfo">
+            <image class="touxiang" src="{{face}}"></image>
+            <text class="username">{{username}}</text>
+        </view>
+    </view>
+    <view class="right">
+        <view clss="score">
+            <text>积分:</text>
+            <text class="number">{{user_score}}</text>
+        </view>
+    </view>
+</view>
+<view class="body">
+    <navigator class="body_nav" url="/pages/review/review" >
+        <text class="body_nav_text">错题回顾</text>
+    </navigator>
+    <navigator class="body_nav">
+        <text class="body_nav_text">个人设置</text>
+    </navigator>
+    <navigator class="body_nav">
+        <text class="body_nav_text">帮助反馈</text>
+    </navigator>
+    <navigator class="body_nav">
+        <text class="body_nav_text">关于应用</text>
+    </navigator> 
+</view>
